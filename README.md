@@ -1,11 +1,11 @@
 # Toy Robot Simulator
 
 This is a command line Java application that simulates a robot
-on a specifiable grid
+on a fixed 5 x 5 grid
 
 ## Description
 
-- The application is a simulation of a toy robot moving on a square tabletop,
+- The application is a simulation of a toy robot moving on a square table top,
   of dimensions 5 units x 5 units.
 - There are no other obstructions on the table surface.
 - The robot is free to roam around the surface of the table, but must be
@@ -13,7 +13,7 @@ on a specifiable grid
   robot falling from the table must be prevented, however further valid movement
   commands must still be allowed.
  
-The application that can read in commands of the following form
+The application can read in commands of the following form
 
     PLACE X,Y,F
     MOVE
