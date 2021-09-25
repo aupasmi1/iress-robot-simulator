@@ -3,12 +3,10 @@ package com.psmith.toyrobot.state;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+
 import org.junit.jupiter.api.Test;
 
 import com.psmith.toyrobot.exception.RobotException;
-import com.psmith.toyrobot.state.Direction;
-import com.psmith.toyrobot.state.Messages;
-import com.psmith.toyrobot.state.Position;
 
 public class PositionTest {
 

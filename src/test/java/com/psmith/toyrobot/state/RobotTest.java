@@ -7,9 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 import com.psmith.toyrobot.exception.RobotException;
-import com.psmith.toyrobot.state.Direction;
-import com.psmith.toyrobot.state.Position;
-import com.psmith.toyrobot.state.Robot;
 
 public class RobotTest {
 

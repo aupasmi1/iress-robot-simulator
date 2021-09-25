@@ -1,6 +1,13 @@
 package com.psmith.toyrobot;
 
-import com.psmith.toyrobot.Simulator;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
 import com.psmith.toyrobot.command.Command;
 import com.psmith.toyrobot.exception.InputException;
 import com.psmith.toyrobot.exception.RobotException;
@@ -9,14 +16,6 @@ import com.psmith.toyrobot.state.Direction;
 import com.psmith.toyrobot.state.Messages;
 import com.psmith.toyrobot.state.Position;
 import com.psmith.toyrobot.state.Robot;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNull;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-
-import org.junit.jupiter.api.Test;
 
 
 public class SimulatorTest {
