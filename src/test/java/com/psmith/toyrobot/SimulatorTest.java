@@ -1,4 +1,4 @@
-package com.psmith.toyrobot.impl;
+package com.psmith.toyrobot;
 
 import com.psmith.toyrobot.Simulator;
 import com.psmith.toyrobot.command.Command;

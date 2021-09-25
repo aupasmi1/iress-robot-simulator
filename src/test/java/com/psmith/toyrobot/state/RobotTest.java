@@ -1,4 +1,4 @@
-package com.psmith.toyrobot.impl;
+package com.psmith.toyrobot.state;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
