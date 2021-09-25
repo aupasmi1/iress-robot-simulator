@@ -67,9 +67,9 @@ c)
 
 ## Requirements
 
-- Implemented and tested using Java 7
+- Implemented and tested using Java 16 in a Java 8 compatibility mode
 
-- Tests require JUnit and Mockito
+- Tests require JUnit5
 
 - Project dependencies and compiling managed by Maven
 
